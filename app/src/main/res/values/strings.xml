@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoginProfile</string>
+    <string name="login">Đăng nhập</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="forgot">Quên mật khẩu?</string>
+    <string name="profile">Hồ sơ</string>
+    <string name="friends">Bạn bè</string>
+    <string name="followers">Người theo dõi</string>
+    <string name="settings">Cài đặt</string>
+</resources>

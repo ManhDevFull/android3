@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.android" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Tuỳ chỉnh theme tại đây -->
+    </style>
+</resources>

@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /home/manh/.gradle/caches/8.13/transforms/428e769e8c5d71cac39815b6c6fecec8/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /home/manh/.gradle/caches/8.13/transforms/428e769e8c5d71cac39815b6c6fecec8/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /home/manh/.gradle/caches/8.13/transforms/428e769e8c5d71cac39815b6c6fecec8/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /home/manh/.gradle/caches/8.13/transforms/428e769e8c5d71cac39815b6c6fecec8/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /home/manh/.gradle/caches/8.13/transforms/428e769e8c5d71cac39815b6c6fecec8/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:2:5-19:19
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.9.0] /home/manh/.gradle/caches/8.13/transforms/428e769e8c5d71cac39815b6c6fecec8/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:4:9-43
+22        android:label="@string/app_name"
+22-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:3:9-41
+23        android:theme="@style/Theme.ATMProfile" >
+23-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:5:9-48
+24        <activity
+24-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:6:9-9:58
+25            android:name="com.example.android.ProfileActivity"
+25-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:7:13-44
+26            android:exported="false"
+26-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:8:13-37
+27            android:windowSoftInputMode="adjustResize" />
+27-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:9:13-55
+28        <activity
+28-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:10:9-18:20
+29            android:name="com.example.android.LoginActivity"
+29-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:11:13-42
+30            android:exported="true"
+30-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:12:13-36
+31            android:windowSoftInputMode="adjustResize" >
+31-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:13:13-55
+32            <intent-filter>
+32-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:14:13-17:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:15:17-69
+33-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:15:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:16:17-77
+35-->/run/media/manh/01DB60055A8FAD30/Android/android/app/src/main/AndroidManifest.xml:16:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.2.0] /home/manh/.gradle/caches/8.13/transforms/2a04045bd4e8c4e440478830544d6d98/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.2.0] /home/manh/.gradle/caches/8.13/transforms/2a04045bd4e8c4e440478830544d6d98/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+41            android:authorities="com.example.android.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.2.0] /home/manh/.gradle/caches/8.13/transforms/2a04045bd4e8c4e440478830544d6d98/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.2.0] /home/manh/.gradle/caches/8.13/transforms/2a04045bd4e8c4e440478830544d6d98/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.2.0] /home/manh/.gradle/caches/8.13/transforms/2a04045bd4e8c4e440478830544d6d98/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.2.0] /home/manh/.gradle/caches/8.13/transforms/2a04045bd4e8c4e440478830544d6d98/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.2.0] /home/manh/.gradle/caches/8.13/transforms/2a04045bd4e8c4e440478830544d6d98/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/manh/.gradle/caches/8.13/transforms/4ba21fd7874576d58b717ca2fedab6bd/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/manh/.gradle/caches/8.13/transforms/4ba21fd7874576d58b717ca2fedab6bd/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/manh/.gradle/caches/8.13/transforms/4ba21fd7874576d58b717ca2fedab6bd/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>
