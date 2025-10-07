@@ -1,6 +1,6 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
-        <shape android:shape="rectangle">
+        <shape>
             <gradient
                 android:startColor="#0EA5E9"
                 android:centerColor="#3B82F6"
@@ -8,8 +8,7 @@
                 android:angle="315"/>
         </shape>
     </item>
-    <!-- vệt sáng -->
-    <item android:gravity="top|end" android:top="0dp" android:right="0dp">
+    <item android:gravity="top|end">
         <shape>
             <size android:width="240dp" android:height="240dp"/>
             <solid android:color="#33FFFFFF"/>

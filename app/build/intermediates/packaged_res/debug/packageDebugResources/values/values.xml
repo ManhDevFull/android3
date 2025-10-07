@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="card_bg">#161C33</color>
+    <color name="ic_launcher_background">#0B1020</color>
     <color name="md_text_primary">#FFFFFF</color>
     <color name="md_text_secondary">#C9D4FF</color>
     <color name="md_theme_background">#0B1020</color>
     <color name="md_theme_onPrimary">#FFFFFF</color>
     <color name="md_theme_primary">#5865F2</color>
-    <color name="md_theme_secondary">#0EA5E9</color>
-    <string name="app_name">LoginProfile</string>
-    <string name="followers">Người theo dõi</string>
+    <string name="app_name">android</string>
     <string name="forgot">Quên mật khẩu?</string>
-    <string name="friends">Bạn bè</string>
     <string name="login">Đăng nhập</string>
     <string name="password">Mật khẩu</string>
     <string name="profile">Hồ sơ</string>

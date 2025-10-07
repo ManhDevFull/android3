@@ -12,8 +12,7 @@
         android:background="@android:color/transparent"
         android:title="@string/profile"
         android:titleTextColor="@color/md_text_primary"
-        app:menu="@menu/menu_profile"
-        app:layout_scrollFlags="scroll|enterAlways" />
+        app:menu="@menu/menu_profile" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -45,7 +44,6 @@
                 android:layout_marginTop="12dp"
                 android:text="Profile Name" />
 
-            <!-- Thông tin tài khoản đăng nhập -->
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -77,7 +75,6 @@
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- Contact card (demo) -->
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
