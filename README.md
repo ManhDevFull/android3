@@ -36,7 +36,7 @@
 
 | Màn hình Login | Màn hình Profile |
 |----------------|------------------|
-| ![Login](screenshots/login.png) | ![Profile](screenshots/profile.png) |
+| ![Login](https://res.cloudinary.com/dspulcmwm/image/upload/v1759857529/d2ab8645-5e97-4206-bbc2-2d12e01e5ad6.png) | ![Profile](https://res.cloudinary.com/dspulcmwm/image/upload/v1759857633/f3ec774d-4239-4bc6-b146-4b27cf2a0cfd.png) |
 
 > *Thư mục `screenshots/` nên chứa ảnh chụp màn hình tương ứng.*
 
