@@ -16,6 +16,7 @@ public class ProfileActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+        
 
         toolbar = findViewById(R.id.toolbar);
         tvName = findViewById(R.id.tvName);
@@ -24,6 +25,7 @@ public class ProfileActivity extends AppCompatActivity {
         tvEmail = findViewById(R.id.tvEmail);
         tvPhone = findViewById(R.id.tvPhone);
         tvWeb = findViewById(R.id.tvWeb);
+        
 
         toolbar.setOnMenuItemClickListener(item -> {
             if (item.getItemId() == R.id.action_settings) {
@@ -49,8 +51,9 @@ public class ProfileActivity extends AppCompatActivity {
         tvName.setText(username);
         tvAccount.setText("Account: " + username);
         tvLoginTime.setText("Logged at: " + loginTime);
-        tvEmail.setText("Email: " + email);
-        tvPhone.setText("Phone: " + phone);
-        tvWeb.setText("Web: " + web);
+   
+tvEmail.setText("Email: thanhmanhdangfa@gmail.com");
+tvPhone.setText("Phone: +84799021393");
+tvWeb.setText("MaSV: 23115053122120");
     }
 }
