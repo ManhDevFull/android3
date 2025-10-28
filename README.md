@@ -49,30 +49,7 @@
 - **Min SDK:** 21
 - **Compile SDK:** 34
 - **Target SDK:** 34
-- **IDE:** Android Studio (Hedgehog/Giraffe)
-
----
-
-## 📂 Cấu trúc thư mục
-
-├── app/
-│ └── src/
-│ └── main/
-│ ├── java/com/example/android/
-│ │ ├── LoginActivity.java
-│ │ └── ProfileActivity.java
-│ ├── res/
-│ │ ├── layout/
-│ │ │ ├── activity_login.xml
-│ │ │ └── activity_profile.xml
-│ │ ├── values/
-│ │ │ ├── colors.xml
-│ │ │ └── strings.xml
-│ │ ├── drawable/
-│ │ │ ├── ic_user_circle_64.xml
-│ │ │ └── ic_settings.xml
-│ │ └── menu/
-│ │ └── menu_profile.xml
+- **IDE:** Android Studio CLI (Hedgehog/Giraffe)
 
 ---
 
