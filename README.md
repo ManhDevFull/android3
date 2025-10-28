@@ -78,8 +78,8 @@
 
 ## 👨‍💻 Tác giả
 
-- **Họ tên:** Bùi Văn Tuyên  
-- **Email:** freemanaurorawek276@hotmail.com  
+- **Họ tên:** Nguyễn Thành Mạnh 
+- **Email:** thanhmanhdangfa@gmail.com  
 - **Mã sinh viên:** 23115053122120
 
 ---
